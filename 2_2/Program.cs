@@ -15,12 +15,12 @@ void Res(int M, int N, int sum)
 
 void foo()
 {
-    int M, N, temp = 0;
+    int M, N;
     Console.WriteLine("Введите число М: ");
     M = Convert.ToInt32(Console.ReadLine());
     Console.WriteLine("Введите число N: ");
     N = Convert.ToInt32(Console.ReadLine());
-    Res(M,N, temp);
+    Res(M,N, 0);
 }
 
 foo();
